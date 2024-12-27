@@ -1,0 +1,44 @@
+Task Two: Creating a Static Website with Google Cloud Storage
+
+
+Step 1: Design Your Website
+
+- Create a new directory for your website and add the necessary HTML, CSS, and JavaScript files.
+- Design a basic website using HTML and CSS.
+
+
+Step 2: Create a Google Cloud Account
+
+- Go to the Google Cloud website ((link unavailable)) and sign up for a free tier account.
+- Fill in the required information, including name, email address, and password.
+- Verify your email address and phone number.
+
+
+Step 3: Enable Cloud Storage
+
+- Log in to the Google Cloud Console.
+- Navigate to the Cloud Storage dashboard and click "Create bucket."
+- Enter a unique name for your bucket and select a storage class.
+- Click "Create" to create the bucket.
+
+
+Step 4: Upload Your Website Files
+
+- Navigate to the Cloud Storage dashboard and select the bucket you created.
+- Click "Upload files" and select the HTML, CSS, and JavaScript files for your website.
+- Upload the files to the bucket.
+
+
+Step 5: Configure Bucket Permissions
+
+- Navigate to the Cloud Storage dashboard and select the bucket.
+- Click "Permissions" and then "Add members."
+- Enter "allUsers" in the "Members" field and select "Storage Object Viewer" as the role.
+- Click "Add" to add the permission.
+
+Step 6: Test Your Website
+
+- Navigate to the Cloud Storage dashboard and select the bucket.
+- Click "Storage" and then "Storage browser."
+- Find the index.html file and click on it to access your website.
+- Verify that your website is accessible and functioning correctly.
